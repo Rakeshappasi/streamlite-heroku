@@ -3,3 +3,4 @@ Opencv-python
 numpy
 face_recognition
 mediapipe
+Opencv-python-headless
