@@ -1,5 +1,5 @@
-streamlit 
-cv2
+impostreamlit 
+Opencv-python
 numpy
 face_recognition
 mediapipe
