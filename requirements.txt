@@ -1,4 +1,4 @@
-impostreamlit 
+streamlit 
 Opencv-python
 numpy
 face_recognition
