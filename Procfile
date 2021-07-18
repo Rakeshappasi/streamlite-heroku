@@ -1,1 +1,1 @@
-web:sh setup.sh && streamlit run program assignment_reised.py
+setup.sh && streamlit run assignment_reised.py
