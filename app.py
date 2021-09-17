@@ -23,7 +23,15 @@ add_selectbox = st.sidebar.selectbox(
 )
 
 if add_selectbox == "About":
-    st.write("This application is a demo for streamlit.")
+    st.markdown('1. __Selfie Segmentation__ : *Selfie Segmentation* allows developers to easily separate the background from users within a scene and focus on what matters.')
+    
+    st.markdown('2. __Face Detection__ : *Face Detection* is the first and essential step for face recognition, and it is used to detect faces in the images.')
+    
+    st.markdown('3. __Face Recognition__ : *Face Recognition* system is a technology capable of matching a human face from a digital image or a video frame against a database of faces,' 
+    'typically employed to authenticate users through ID verification services, works by pinpointing and measuring facial features from a given image')
+   
+    st.markdown('Here we are comparing two image 1 and 2 and the third image is showing whether it is same person or not, if it is same then it will show true and by how much distance.' 
+    'Here distance means how similar the faces are.  Lower is more strict. 0.6 is typical best performance. ')
 elif add_selectbox == "Face Detection":
     mp_face_detection = mp.solutions.face_detection
     mp_drawing = mp.solutions.drawing_utils 
